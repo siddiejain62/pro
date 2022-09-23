@@ -1,0 +1,6 @@
+projectKey=in.ashokit:01-Maven-Web-App
+serverUrl=http://3.109.201.158:9000
+serverVersion=7.8.0.26217
+dashboardUrl=http://3.109.201.158:9000/dashboard?id=in.ashokit%3A01-Maven-Web-App
+ceTaskId=AYNsIuyPlgjYsyRTqfzm
+ceTaskUrl=http://3.109.201.158:9000/api/ce/task?id=AYNsIuyPlgjYsyRTqfzm

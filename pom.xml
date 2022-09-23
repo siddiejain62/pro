@@ -15,6 +15,23 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <properties>
+           <sonar.login>a8479e77310d40656a75f7b7c0a0e7ffaa3f1461</sonar.login>
+           <sonar.host.url>http://3.109.201.158:9000/</sonar.host.url>
+  </properties>
+  <distributionManagement>
+            <repository>
+                          <id>nexus</id>
+                          <name>ashokit_release_repo</name>
+                          <url>http://65.0.177.173:8081/repository/ashokit_release_repo/</url>
+            </repository>
+      
+            <snapshotRepository>
+                           <id>nexus</id>
+                          <name>ashokit_snapshot_repo</name>
+                          <url>http://65.0.177.173:8081/repository/ashokit_snapshot_repo/</url>
+            </snapshotRepository>
+  </distributionManagement>
   <build>
     <finalName>01-Maven-Web-App</finalName>
   </build>
